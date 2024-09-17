@@ -1,0 +1,13 @@
+.thanks{
+    display: flex;
+    gap: 20px;
+    flex-direction: column;
+}
+
+.pix{
+    width: 500px;
+}
+
+.photo{
+    width: 500px;
+}
