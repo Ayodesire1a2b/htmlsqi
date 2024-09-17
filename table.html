@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tables</title>
+
+    <style>
+        .test,th,td{
+            border: 2px solid red;
+            border-collapse: collapse;
+            /* border-spacing: 5px; */
+        }
+        .up{
+            border: 2px solid blue;
+        }
+
+        .down{
+            border: 2px solid black;
+        }
+        .side{
+            border: 3px solid black;
+        }
+        .left{
+            border: 2px solid purple;
+        }
+
+        table{
+            width: 100%;
+        }
+        .first{
+            text-align: center; font-family: 'Courier New', Courier, monospace;
+        }
+        .second{
+            text-align: center;font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        }
+
+    
+
+    </style>
+
+</head>
+<body>
+    <!-- <table class="test">
+        <tr class="">
+            <th class="left">Fat and Oil</th>
+            <th class="left"> Carbonhydrate</th>
+            <th class="down">Vitamins</th>
+            <th class="up">Proteins</th>
+        </tr>
+
+        <tr>
+            <td class="up">Butter</td>
+            <td class="left">Bread</td>
+            <td class="up">Fish</td>
+            <td class="down">Beans</td>
+        </tr>
+
+        <tr>
+            <td class="left">Vegetable Oil</td>
+            <td class="side">Rice</td>
+            <td class="side">Meat</td>
+            <td class="down">Egusi</td>
+        </tr>
+    </table> -->
+
+    <table class="test">
+    
+
+        <tr>
+        
+            <th colspan="2">Name</th>
+
+            <th>Age</th>
+            <th>Color</th>
+        </tr>
+        
+        <tr>
+            <th class="first">Labeodan</th>
+            <th class="second">Sola</th>
+            <th>43</th>
+            <th>blue</th>
+        </tr>
+
+        <tr>
+            <th class="first">Arise</th>
+            <th class="second">Damilare</th>
+            <th rowspan="2">50</th>
+            <th rowspan="2">black</th>
+        </tr>
+
+        <tr>
+            <th class="first">Onifade</th>
+            <th class="second">Pamilerin</th>
+            <!-- <th>16</th> -->
+            <!-- <th>Red</th> -->
+        </tr>
+
+    
+    </table>
+</body>
+</html>
