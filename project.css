@@ -1,0 +1,240 @@
+*{
+    margin: 0;
+    box-sizing:border-box
+    padding: 0;
+}
+.body{
+    position: relative;
+}
+.nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    padding: 10px 32px;
+    gap: 270px;
+    background-color: #29292c;
+
+}
+
+.nav-item{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    color: #e03130;
+
+}
+
+.navlink{
+    display: flex;
+    gap: 60px;
+
+}
+
+.navlink>a{
+    display: flex;
+    gap: 17px;
+    justify-content: space-between;
+    color: white;
+    font-size: 18px;
+
+}
+
+.nav-btn{
+    padding: 13.5px 27px;
+    background-color: crimson;
+    border-radius: 30px;
+    border: none;
+    color: white;
+    font-size: 18px;
+
+}
+
+.glass{
+    padding: 20px;
+    background-color: whitesmoke;
+    border-radius: 50%;
+    margin-right: 30px;
+}
+
+.container{
+    width: 60%;
+    margin: auto;
+    padding-top: 200px;
+
+
+
+}
+
+.head-text h1{
+    font-size: 50px;
+    margin-bottom: 25px
+}
+
+.head-text p{
+    font-size: 25px;
+    font-weight: 100px;
+    padding-bottom: 70px
+
+}
+
+.head-text a{
+color: crimson;
+}
+
+.group{
+    display: flex;
+    font-size: 20px;
+    gap: 20px;
+    padding-top: 40px;
+    padding-bottom: 10px;
+}
+
+.one{
+    border: 2px solid black;
+    font-size: 20px;
+    border-radius: 50px;
+    padding: 10px;
+    background-color: crimson;
+    color: white;
+    border: none;
+
+}
+
+.two{
+    border: 1px solid black;
+    font-size: 20px;
+    padding: 10px;
+    border-radius: 50px;
+}
+
+.three{
+    border: 1px solid black;
+    padding: 10px;
+    font-size: 20px;
+    border-radius: 50px;
+}
+
+.four{
+    border: 1px solid black;
+    padding: 10px;
+    font-size: 20px;
+    border-radius: 50px;
+
+}
+
+.five{
+    border: 1px solid black;
+    padding: 10px;
+    font-size: 20px;
+    border-radius: 50px;
+}
+
+.six{
+    font-size: 20px;
+    padding: 10px;
+    text-decoration: underline;
+}
+
+
+.apple{
+    width: 60%;
+    margin: auto;
+    padding-top: 40px;
+}
+
+.appleone, .appletwo, .applefive, 
+.applesix, .appleseven, .appleeight, .applenine, .appleten{
+    padding-bottom: 40px;
+}
+
+.apple h1, p{
+    margin-bottom: 10px;
+}
+
+.apple a{
+    color: crimson;
+    font-size: 18px;
+
+}
+
+.applefour{
+    margin-top: 80px;
+    background-color: #f0f0f7;
+    width: 600px;
+    padding: 30px;
+    font-size: 20px;
+}
+.box{
+    
+    
+}
+
+.dot{
+    padding: 13.5px 27px;
+    background-color: crimson;
+    border-radius: 30px;
+    border: none;
+    color: white;
+    font-size: 20px;
+}
+
+.applefive{
+    margin-top: 60px;
+}
+
+.august{
+    color:#3d3e43
+    font-family:Arial, Helvetica, sans-serif
+
+
+}
+
+.number{
+    display: flex;
+    margin-top: 50px;
+    justify-content: center;
+    margin-bottom: 50px;
+}
+
+.last{
+    display: flex;
+    justify-content: space-between;
+    width: 100wv;
+    height: 100wh;
+    padding: 50px 50px;
+    gap: 200px;
+    background-color: #29292c
+    
+}
+
+.lastone0{
+    display: flex;
+    gap: 20px;
+    font-size: 20px;
+    align-items: center;
+    color:#e03130
+    
+}
+
+.pix{
+    border-radius: 50%;
+}
+
+.btm{
+    display: flex;
+    color: #e4e4e4;
+    justify-content: space-between;
+    padding: 85px 95px;
+    font-size: 17px;
+    background-color:#29292c
+    
+
+    
+}
+
+.lastone1, .lastone2, .lastone3{
+    font-size: 20px;
+    color: #e4e4e4;
+    
+}
